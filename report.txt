@@ -1,6 +1,5 @@
+阅读cyborg代码记录
 
-�Ķ�cyborg�����¼
-
-���ĵ��˽⣬cyborg��Ҫ���������ݣ�API��Conductor��Agent.
-Conductor��Ҫ��Э���߽�ɫ�������������API����ķַ���������Ӧ������
-Agent�ǲ�����ÿ������node�ڵ㣬���м�����Դ�ռ���״̬���µģ�
+从文档了解，cyborg主要分三块内容，API、Conductor、Agent.
+Conductor主要是协调者角色，负责完成所有API请求的分发处理、响应处理；
+Agent是部署在每个计算node节点，进行加速资源收集、状态更新的；
